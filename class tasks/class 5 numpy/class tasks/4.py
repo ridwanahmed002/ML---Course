@@ -1,0 +1,23 @@
+import numpy as np
+
+array_zero = np.zeros((3, 4))
+array_one = np.ones((3, 2))
+array_full = np.full((3, 4), 5)
+array_random = np.random.random((3, 4))
+array_eye = np.eye(3)
+array_range = np.arange(1, 10, 2)
+array_linspace = np.linspace(1, 10, 5)
+
+print(array_zero)
+print("===========================")
+print(array_one)
+print("===========================")
+print(array_full)   
+print("===========================")
+print(array_random)
+print("===========================")
+print(array_eye)
+print("===========================")
+print(array_range)
+print("===========================")
+print(array_linspace)
